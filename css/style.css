@@ -1,0 +1,135 @@
+p.text-header {
+    background:  blue;
+    padding:  10px;
+    text-align:  center;
+    font-size:  18pt;
+    border-radius: 10px;
+}
+
+p.text-footer {
+    background: blue;
+    padding: 10px;
+    text-align: right;
+    font-size: 12pt;
+    border-radius: 10px;
+    font-style:  italic;
+    color: white;
+}
+
+
+#content {
+    overflow: hidden;
+}
+
+#tambah-data {width: 354px;height:  auto;margin: 10px auto;}
+
+.element-form {
+    margin-bottom:  10px;
+}
+
+label {
+    display: block;
+}
+
+input[type="radio"] {
+    margin-bottom:  15px;
+}
+
+select {
+    width: 350px;
+    background-color: #9090e4;
+}
+
+input[type="submit"] {
+    border:  none;
+    background:  blue;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-bottom: 35px;
+    color:  white;
+    text-transform:  uppercase;
+}
+
+input[type="submit"]:hover {
+
+    background :orange;
+    cursor : pointer;
+}
+
+a.tambah {
+    text-decoration:  none;
+    background:  blue;
+    padding:  5px 10px;
+    color:  white;
+    margin-left: 10px;
+    margin-right:  1px;
+    border-radius:  5px;
+}
+
+a.tambah:hover {
+    background:orange
+}
+
+a.lihat {
+    text-decoration:  none;
+    background:  blue;
+    padding: 5px 30px;
+    color:  white;
+    border-radius:  5px;
+}
+
+a.lihat:hover{
+    background:orange
+}
+
+table {
+    margin-top:  20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    width: 100%;
+}
+
+tr.header-list {
+    background: grey;
+    color:  white;
+}
+
+a.edit {
+    background:  blue;
+    text-decoration:  none;
+    color:  white;
+    padding: 2px 11px;
+    border-radius: 5px;
+    display:  inline-block;
+    margin-right: auto;
+}
+
+a.edit:hover{
+    background:orange;
+}
+
+a.hapus {
+    background: blue;
+    text-decoration:  none;
+    color:  white;
+    padding: 2px 8px;
+    border-radius: 5px;
+    display:  inline-block;
+}
+
+a.hapus:hover{
+    background:orange;
+}
+
+#container {
+    width: 1150px;
+    height: auto;
+    margin: 0px auto;
+    padding: 15px;
+}
+
+input.input-text {
+    width:  350px;
+    padding:  5px;
+    box-sizing:  border-box;
+}
